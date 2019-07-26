@@ -1,9 +1,7 @@
 import 'dart:ui';
 
-import 'package:fllutter_layout/AutoLayout.dart';
-import 'package:fllutter_layout/homepage.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_layout/AutoLayout.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,7 +25,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
 
-      //切换布局框架查看效果
+      //对比切换布局框架查看效果HomePage
       home: MyHomePage(),
     );
   }

@@ -14,7 +14,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-        ScreenUtil.instance = ScreenUtil()..init(context);
+    ScreenUtil.instance = ScreenUtil()..init(context);
     return Scaffold(
         appBar: AppBar(
           title: Text('测试'),
@@ -69,7 +69,8 @@ class _HomePageState extends State<HomePage> {
                           child: Text(
                             '这是跟随系统变化的字体',
                             style: TextStyle(
-                                fontSize: ScreenUtil(allowFontScaling: true).setSp(15)),
+                                fontSize: ScreenUtil(allowFontScaling: true)
+                                    .setSp(15)),
                           ),
                         ),
                       ),
