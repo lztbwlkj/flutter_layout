@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
     print("physicalWidthDp : ${AutoLayout.physicalWidthDp}");
     print("physicalHeightDp : ${AutoLayout.physicalHeightDp}");
 
-
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
