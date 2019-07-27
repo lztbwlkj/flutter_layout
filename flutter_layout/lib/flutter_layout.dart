@@ -86,12 +86,11 @@ class AutoLayout {
     _textScaleFactor = mediaQuery.textScaleFactor;
     _screenWidth = mediaQuery.size.width;
     _screenHeight = mediaQuery.size.height;
-
-    print(
+    debugPrint(
         "_devicePixelRatio:$_devicePixelRatio _deviceWidth:$_deviceWidth _deviceHeight:$_deviceHeight");
-    print(
+    debugPrint(
         "_designWidth : $designWidth _desginHeight : $designHeight __designDevicePixelRatio : $designDevicePixelRatio");
-    print(
+    debugPrint(
         "_ratioW : $_ratioW _rationH : $_ratioH,screenWidth = $_screenWidth,screenHeight = $_screenHeight");
   }
 
