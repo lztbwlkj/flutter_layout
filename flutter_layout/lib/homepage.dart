@@ -29,17 +29,17 @@ class _HomePageState extends State<HomePage> {
                     children: <Widget>[
                       Container(
                         width: ScreenUtil.getInstance().setWidth(360),
-                        height: ScreenUtil().setHeight(300),
+                        height: ScreenUtil().setWidth(300),
                         color: Colors.red,
                       ),
                       Container(
                         width: ScreenUtil.getInstance().setWidth(360),
-                        height: ScreenUtil.getInstance().setHeight(300),
+                        height: ScreenUtil.getInstance().setWidth(300),
                         color: Colors.blue,
                       ),
                       Container(
                         width: ScreenUtil.getInstance().setWidth(360),
-                        height: ScreenUtil.getInstance().setHeight(300),
+                        height: ScreenUtil.getInstance().setWidth(300),
                         color: Colors.red,
                       )
                     ],
@@ -48,12 +48,12 @@ class _HomePageState extends State<HomePage> {
                     children: <Widget>[
                       Container(
                         width: ScreenUtil.getInstance().setWidth(180),
-                        height: ScreenUtil.getInstance().setHeight(300),
+                        height: ScreenUtil.getInstance().setWidth(300),
                         color: Colors.black,
                       ),
                       Container(
                         width: ScreenUtil.getInstance().setWidth(540),
-                        height: ScreenUtil.getInstance().setHeight(300),
+                        height: ScreenUtil.getInstance().setWidth(300),
                         color: Colors.blue,
                       )
                     ],
@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
                     children: <Widget>[
                       Container(
                         width: ScreenUtil().setWidth(360),
-                        height: ScreenUtil().setHeight(300),
+                        height: ScreenUtil().setWidth(300),
                         color: Colors.red,
                         child: Center(
                           child: Text(
@@ -76,12 +76,12 @@ class _HomePageState extends State<HomePage> {
                       ),
                       Container(
                         width: ScreenUtil.getInstance().setWidth(360),
-                        height: ScreenUtil.getInstance().setHeight(300),
+                        height: ScreenUtil.getInstance().setWidth(300),
                         color: Colors.blue,
                       ),
                       Container(
                         width: ScreenUtil.getInstance().setWidth(360),
-                        height: ScreenUtil.getInstance().setHeight(300),
+                        height: ScreenUtil.getInstance().setWidth(300),
                         color: Colors.red,
                       )
                     ],
@@ -90,12 +90,12 @@ class _HomePageState extends State<HomePage> {
                     children: <Widget>[
                       Container(
                         width: ScreenUtil.getInstance().setWidth(180),
-                        height: ScreenUtil.getInstance().setHeight(300),
+                        height: ScreenUtil.getInstance().setWidth(300),
                         color: Colors.black,
                       ),
                       Container(
                         width: ScreenUtil.getInstance().setWidth(540),
-                        height: ScreenUtil.getInstance().setHeight(300),
+                        height: ScreenUtil.getInstance().setWidth(300),
                         color: Colors.blue,
                       )
                     ],
@@ -104,12 +104,12 @@ class _HomePageState extends State<HomePage> {
                     children: <Widget>[
                       Container(
                         width: ScreenUtil.getInstance().setWidth(100),
-                        height: ScreenUtil.getInstance().setHeight(300),
+                        height: ScreenUtil.getInstance().setWidth(300),
                         color: Colors.red,
                       ),
                       Container(
                         width: ScreenUtil.getInstance().setWidth(980),
-                        height: ScreenUtil.getInstance().setHeight(300),
+                        height: ScreenUtil.getInstance().setWidth(300),
                         color: Colors.blue,
                       )
                     ],
