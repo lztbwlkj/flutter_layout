@@ -141,7 +141,6 @@ class _ExampleAutoLayoutState extends State<ExampleAutoLayout> {
           Text('设备高度:${AutoLayout.deviceHeight}px'),
           Text('设备高度:${AutoLayout.deviceWidthDp}dp'),
           Text('设备高度:${AutoLayout.deviceHeightDp}dp'),
-          
           Text('设备的像素密度:${AutoLayout.devicePixelRatio}'),
           Text('底部安全区距离:${AutoLayout.bottomBarHeight}dp'),
           Text('状态栏高度:${AutoLayout.statusBarHeight}dp'),
